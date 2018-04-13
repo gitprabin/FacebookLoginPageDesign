@@ -1,0 +1,178 @@
+<html>
+
+<head>
+    <title>Facebook - Log In or Sign Up</title>
+    <style>
+        .topbar {
+            background-color: #3b5998;
+            height: 82px;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            margin-top: -9px;
+        }
+
+        .left-panel {
+            position: absolute;
+            width: 500px;
+        }
+
+        .right-panel {
+            position: absolute;
+            width: auto;
+        }
+
+        .title {
+            color: white;
+            margin-left: 187px;
+            margin-top: 30px;
+            position: absolute;
+            font-size: 35px;
+        }
+
+        .email {
+            margin-top: 18px;
+            margin-left: 774px;
+            position: absolute;
+            font-size: 15px;
+        }
+
+        .password {
+            margin-top: 18px;
+            margin-left: 938px;
+            position: absolute;
+            font-size: 15px;
+        }
+
+        .forget-password {
+            position: absolute;
+            color: white;
+            margin-left: 938px;
+            margin-top: 59px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .register-form {
+            margin-left: 762px;
+            max-width: 400px;
+        }
+
+        .why {
+            font-size: 13px;
+            position: absolute;
+            margin-top: -29px;
+            margin-left: 198px;
+            max-width: 200px;
+        }
+
+        .info {
+            max-width: 321px;
+        }
+    </style>
+</head>
+
+<body style="background-color:#E9EBEE;">
+    <div class="content">
+        <div class="topbar">
+            <h1 class="title">Facebook</h1>
+            <div class="form-login">
+                <div class="email">
+                    <label style="color: white;">Email or Phone</label>
+                    <br/>
+                    <input type="text" style="width: 145px;height: 23px;" name="email" maxlength="30" value="" />
+                </div>
+                <div class="forget-password">
+                    <a href="/index.html" style="color:#9CB4D8;font-size:13px;">Forgot account</a>
+                </div>
+                <div class="password">
+                    <label style="color: white;">Password</label>
+                    <br/>
+                    <input type="text" style="width: 145px;height: 23px;" name="password" maxlength="30" value="" />
+                    <input style="background-color:#365899; color:white;margin-left:10px" type="submit" name="submit" value="Log In" />
+                </div>
+            </div>
+        </div>
+
+        <div class="left-panel">
+            <h1 style="margin-top: 91px;margin-left: 178px;font-size: 35px;">Recent Logins</h1>
+            <p style="font-size: 20px;position: absolute;margin-top: -27px;margin-left: 178px;">Click your picture or add an account.</p>
+
+            <div class="login-image" style="width:150px;background-color: white;height: 190px;margin-left: 180px;margin-top: 39px;">
+                <div class="img1" style="background-color:white">
+                    <img src="profile-link.jpg" width="150" height="150">
+                </div>
+                <p style="font-size: 23px;margin-top: 6px;font-weight: bold;margin-left: 41px;">Prabin</p>
+            </div>
+            <div style="width:150px;background-color: white;height: 190px;margin-left: 354px;margin-top: -190px;">
+                <div class="img1" style="background-color:white">
+                        
+                </div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <h1 style="margin-top: 91px;margin-left: 758px;font-size: 35px;">Create a New Account</h1>
+            <p style="font-size: 20px;position: absolute;margin-top: -27px;margin-left: 762px;">It’s free and always will be.</p>
+
+            <div class="register-form" style="float:left;">
+                <input type="text" style="font-size: 19px;width: 194px;padding: 5px;border-radius: 8px;" placeholder="First name" name="first_name">
+                <input type="text" style="font-size: 19px;width: 194px;padding: 5px;border-radius: 8px; margin-top: 14px;" placeholder="Last name"
+                    name="last_name">
+                <br/>
+                <input type="text" style="font-size: 19px;width: 392px;padding: 5px;border-radius: 8px; margin-top: 14px;" placeholder="Mobile number or Email"
+                    name="last_name">
+                <input type="text" style="font-size: 19px;width: 392px;padding: 5px;border-radius: 8px; margin-top: 14px;" placeholder="New Password"
+                    name="last_name">
+                <br/>
+                <br/>
+                <label style="font-size: 18px;margin-top: 5px;">Birthday</label>
+                <br/>
+                <select style="font-size:15px;padding: 3px;">
+                    <option>Jan</option>
+                    <option>Feb</option>
+                    <option>March</option>
+                </select>
+                <select style="font-size:15px; padding:3px;">
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                </select>
+                <select style="font-size:15px;padding:3px;">
+                    <option>1994</option>
+                    <option>1995</option>
+                    <option>1996</option>
+                </select>
+                <div class="why">
+                    <a href="/" style="color:#4267B2;">Why do I need to provide my birthday?</a>
+                </div>
+
+                <br/>
+                <br/>
+                <div class="radio" style="font-size:20px;">
+                    <input type="radio" name="sex" value="Female">Female &nbsp;&nbsp;
+                    <input type="radio" name="sex" value="Male"> Male
+                </div>
+
+                <div class="info">
+                    <p style="font-size: 13px;">By clicking Create Account, you agree to our Terms and that you have read our Data Policy, including
+                        our Cookie Use. You may receive SMS Notifications from Facebook and can opt out at any time.</p>
+                </div>
+                <input type="submit" value="Create Account" style="background-color: #6EAB59;color: White;padding: 6px;width: 203px;font-size: 21px;border-radius: 8px;">
+                <br/>
+                <br/>
+                <hr/>
+                <p>
+                    <a href="" style="color:#4267B2">Create a Page</a> for a celebrity, band or business.</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
